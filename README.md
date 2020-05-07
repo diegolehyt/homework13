@@ -3,7 +3,7 @@
 
 - Link to Deploy app at the end. [>> GO ⬇️ <<](#url)
 
-![VIEW](assets/0.gif)
+![main](images/1.jpg)
 
 - Burgers
 
@@ -22,12 +22,12 @@
 * [Questions](#questions)
 
 ## 📋Description
-"Employee Traker" is a CLI application that can help you keep your work team updated and organize. Powered by MySQL and javascript you can view, add, update and delete information about your employees from the database.
+"Eat Da Burger" is a web application that can help you keep your Burgers orders more organize. Powered by MySQL and javascript you can view, add, update and delete information about your employees from the database.
 ```
-As a restaurant business owner
+As a restaurant owner
 I want to be able to view and manage the Burgers given to customers,
-if the burguer was served and also if it was devoured,
-So that I can organize and plan my business
+VIEW if the burguer was served or devoured,
+So that I can organize and plan my business.
 ```
 - Open the application using "command line", (recomended: GitBash).
 

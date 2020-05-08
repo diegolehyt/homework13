@@ -1,5 +1,5 @@
 // Get the connection to the database
-const DB = require('../db')
+const DB = require('../config/connection')
 const connection = new DB({ database: 'burgers_db' }).connection
 
 class Burger {

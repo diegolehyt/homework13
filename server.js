@@ -18,7 +18,7 @@ app.engine('handlebars', exphbs({ defaultLayout: 'main' }))
 app.set('view engine', 'handlebars')
 
 // Handle all dynamic routes with our controller
-app.use(require('./controllers/burgers'))
+app.use(require('./controllers/burger_controllers'))
 
 // Set the port of our application
 // process.env.PORT lets the port be set by Heroku

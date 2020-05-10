@@ -1,6 +1,6 @@
 const mysql = require('mysql2')
 
-let = defaultConfig
+let defaultConfig
 
 if (process.env.JAWSDB_URL){
   defaultConfig = process.env.JAWSDB_URL

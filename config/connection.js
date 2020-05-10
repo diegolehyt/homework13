@@ -1,10 +1,17 @@
 const mysql = require('mysql2')
 
-const defaultConfig = {
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'burgers_db'
+let = defaultConfig
+
+if (process.env.JAWSDB_URL){
+  defaultConfig = process.env.JAWSDB_URL
+}
+else {
+  defaultConfig = {
+    host: 'localhost',
+    user: 'root',
+    password: 'sum182magodeoz',
+    database: 'burgers_db'
+  }
 }
 
 module.exports = mysql.createConnection(defaultConfig).promise()

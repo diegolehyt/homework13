@@ -65,9 +65,9 @@ This repository content the files: JavaScript "index.js" (main app), Mit license
 
 ## 🔗URL  
 
-- Check my Demos on my Youtube page "http://www.youtube.com"
-- The URL to open the repo page on your Browser is "https://diegolehyt.github.io/homework13/"
-- Visit my Heroku page "https://dashboard.heroku.com/apps/mighty-eyrie-28086"
+- Check my Demos on my Youtube page "https://www.youtube.com/channel/UCev6xJU1FGx1IbRjQhtjKcQ"
+- The URL to this repo page is "https://github.com/diegolehyt/homework13.git"
+- Deploy Heroku page Here! --> "https://secret-garden-39364.herokuapp.com/"
 
 ## 👤Questions  
 ![youtube](https://img.shields.io/badge/YouTube-red?style=flat&logo=youtube)  ![Heroku](https://img.shields.io/badge/Heroku-purple?style=flat&logo=heroku)  ![MySQL](https://img.shields.io/badge/MySQL-9cf?style=flat&logo=mysql)  ![Social](https://img.shields.io/github/followers/diegolehyt?style=social) 

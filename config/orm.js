@@ -1,5 +1,4 @@
-const DB = require('../config/connection')
-const connection = new DB({ database: 'burgers_db' }).connection
+const connection = require('../config/connection')
 
 const orm = {
     findAllBurger: async function () {

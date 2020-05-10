@@ -3,7 +3,7 @@
 
 - Link to Deploy app at the end. [>> GO ⬇️ <<](#url)
 
-![main](images/1.jpg)
+![main](images/1.gif)
 
 - Burgers
 

@@ -1,32 +1,39 @@
-<h1>Burgers!</h1>
+<div class="row">
+  <div class="col-6">
+    <h3 class="h3 glow">Served Burgers!</h3>
 
-<h2>Burgers that are not Devoured yet!</h2>
-
-<ul>
-  {{#each burgers}}
-  {{#if devour}}
-  {{> burgers/burger-block dev=false}}  
-  {{/if}}
-  {{/each}}
-</ul>
-
-<h2>Burgers that are Devoured!</h2>
-
-<ul>
-  {{#each burgers}}
-  {{#unless devour}}
-  {{> burgers/burger-block dev=true}}
-  {{/unless}}
-  {{/each}}
-</ul>
-
-<h2>Add a Burger</h2>
-<form id="create-form">
-
-  <div class="form-group">
-    <label for="burgername">Burger Name:</label>
-    <input type="text" id="burgername" name="name">
+    <ul>
+      {{#each burgers}}
+      {{#if devour}}
+      {{> burgers/burger-block dev=false}}  
+      {{/if}}
+      {{/each}}
+    </ul>
   </div>
+  <div class="col-6">
+    <h3 class="h3 glow">Devoured Burgers!</h3>
 
-  <button type="submit">Add Burger</button>
-</form>
+    <ul>
+      {{#each burgers}}
+      {{#unless devour}}
+      {{> burgers/burger-block dev=true}}
+      {{/unless}}
+      {{/each}}
+    </ul>
+  </div>
+</div>
+<div class="row" style="margin-bottom: 20px;">
+  <div class="col-12" style="text-align: center;">
+    <h3 class="h3 glow">Add a Burger</h3>
+    <form id="create-form">
+
+      <div class="form-group">
+        <label for="burgername" style="color: white; display: block; font-style: italic;">Burger Name:</label>
+        <input type="text" id="burgername" name="name" style="display: block, text-align: center; border-radius: 20px;">
+      </div>
+
+      <button class="addburger" type="submit">Add<i class='fas fa-hamburger' style="float: right; margin-left:4px;"></i></button>
+    </form>
+  </div>
+</div>
+

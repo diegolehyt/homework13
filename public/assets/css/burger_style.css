@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Warnes&display=swap');
 body, html {
   height: 100%;
   margin: 0;
@@ -5,7 +6,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url('https://www.fiveguys.com/-/media/Public-Site/Images/FG-Five-Guys-Story-Hero.ashx?h=866&w=1800&la=en&hash=81A58CEDC3890CADCAE22EE50FC71524');
+  background-image: url('https://wallpaperaccess.com/full/1858113.jpg');
 
   /* Full height */
   height: 100%; 
@@ -16,10 +17,31 @@ body, html {
   background-size: cover;
 }
 
+
+i {
+  font-size:24px;
+}
+
 li {
+  list-style: none;
+  font-style: italic;
+  width: 450px;
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  color: white;
+  background-image: url('https://jooinn.com/images/dark-wood-grain-5.jpg');
+  border-style: none;
+  /* margin-right: 25px;
+  margin-bottom: 25px; */
+  box-shadow: 0 4px 8px 0 rgba(255, 166, 0, 0.2), 0 6px 20px 0 rgba(255, 166, 0, 0.2);
+  border-radius: 0px 20px 20px 0px;
+  transition: all .2s ease-in-out; 
+}
+
+
+li:hover { 
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(81, 255, 0, 0.2), 0 6px 20px 0 rgba(81, 255, 0, 0.2); 
 }
 
 .label {
@@ -35,3 +57,68 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+
+.h1 {
+  font-family: 'Warnes';
+  color: orange;
+  font-weight: bold;
+}
+
+.h3 {
+  font-family: 'Warnes';
+  color: orange;
+  text-align: center;
+}
+
+.change-devoured {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border-radius: 20px;
+}
+
+.addburger {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border-radius: 20px;
+}
+
+
+
+
+.glow {
+  color: rgb(255, 194, 113);
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(255, 194, 113), 0 0 20px rgb(255, 194, 113), 0 0 30px orange, 0 0 40px orange, 0 0 50px orange, 0 0 60px orange, 0 0 70px orange;
+  }
+  
+  to {
+    text-shadow: 0 0 20px rgb(255, 194, 113), 0 0 30px #ff854d, 0 0 40px #ff854d, 0 0 50px #ff854d, 0 0 60px #ff854d, 0 0 70px #ff854d, 0 0 80px #ff854d;
+  }
+}
+
+
+/* .glow2 {
+  
+  color: lightgreen;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow2 {
+  from {
+    text-shadow: 0 0 10px lightgreen, 0 0 20px lightgreen, 0 0 30px orange, 0 0 40px orange, 0 0 50px orange, 0 0 60px orange, 0 0 70px orange;
+  }
+  
+  to {
+    text-shadow: 0 0 20px lightgreen, 0 0 30px greenyellow, 0 0 40px greenyellow, 0 0 50px greenyellow, 0 0 60px greenyellow, 0 0 70px greenyellow, 0 0 80px greenyellow;
+  }
+} */

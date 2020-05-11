@@ -1,6 +1,14 @@
+{{#unless dev}}
 <li>
 	{{name}}
-	{{#unless dev}}
+	
 	<button class="change-devoured" data-id="{{id}}" data-devoured="{{dev}}" style="float: right; margin-top:-3px;">DEVOUR <i class='fas fa-hamburger' style="float: right; margin-left:4px;"></i></button>
-	{{/unless}}
+	
 </li>
+{{/unless}}
+
+{{#if dev}}
+<li>
+	<span style="text-decoration: line-through; color: rgba(255, 255, 255, 0.616);">{{name}}</span>
+</li>
+{{/if}}

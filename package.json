@@ -1,13 +1,13 @@
 {
   "name": "mvc_design",
   "version": "2.0.0",
-  "description": "Simplified example of MVC Design Pattern with Node/Express/MySQL",
+  "description": "MVC Design Pattern with Node/Express/MySQL",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server"
   },
-  "author": "Robert McKenney <robert@mckenney.ca>",
+  "author": "Diego Lehyt <diegolehy00@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",

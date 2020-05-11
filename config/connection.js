@@ -9,7 +9,7 @@ else {
   defaultConfig = {
     host: 'localhost',
     user: 'root',
-    password: 'sum182magodeoz',
+    password: '', //======= Password here!
     database: 'burgers_db'
   }
 }

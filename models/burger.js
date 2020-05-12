@@ -1,11 +1,14 @@
+// ============================================================\ Burger Model /================================================================
+// Bring the Orm module
 const orm = require('../config/orm')
 
+// Create a Burger class
 class Burger {
   constructor ({ name, devour = false }) {
     this.name = name
     this.devour = devour
   }
-  // orm
+  // All action functions inside our class, depending on our ORM module tu get the database
   static async findAll () {
     const rows = await orm.findAllBurger()
     return rows
@@ -50,6 +53,7 @@ class Burger {
 
 }
 
+// Ensure valid booleans
 function fixBool (prop) {
   if (prop === 'false') prop = false
   else if (prop === '0') prop = false

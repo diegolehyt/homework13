@@ -1,6 +1,10 @@
+// ==============================\ ORM /===================================== \\
+// Get the connection to the database
 const connection = require('../config/connection')
 
+// All Queries ready to be call from the Model. 
 const orm = {
+    // Using the MySQL syntax and Javascript we are able to get and save our database.
     findAllBurger: async function () {
         const [rows] = await connection.query(`SELECT * FROM burgers;`)
         return rows

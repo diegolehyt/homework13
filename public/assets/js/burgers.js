@@ -1,4 +1,7 @@
+// ==========================================\ Client JS logic /============================================== \\
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
+
+// Devour button click listener, also fetching the data from our server API rout.
 document.querySelectorAll('.change-devoured').forEach(button => {
   button.addEventListener('click', function (event) {
     const id = this.getAttribute('data-id')
@@ -15,6 +18,7 @@ document.querySelectorAll('.change-devoured').forEach(button => {
   })
 })
 
+// Submit new burger button click listener, also fetching the data from our server API rout.
 document.getElementById('create-form').addEventListener('submit', event => {
   event.preventDefault()
 
